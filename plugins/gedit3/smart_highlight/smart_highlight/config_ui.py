@@ -1,12 +1,12 @@
 # -*- encoding:utf-8 -*-
 
 
-# config_ui.py
+# config_ui.py is part of smart-highlighting-gedit
 #
 #
-# Copyright 2010 swatch
+# Copyright 2010-2012 swatch
 #
-# This program is free software; you can redistribute it and/or modify
+# smart-highlighting-gedit is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
 # the Free Software Foundation; either version 2 of the License, or
 # (at your option) any later version.
@@ -39,7 +39,7 @@ class ConfigUI(object):
 		#Set the Glade file
 		gladefile = os.path.join(os.path.dirname(__file__),"config.glade")
 		UI = Gtk.Builder()
-		UI.set_translation_domain('smart-highlight')
+		UI.set_translation_domain('smart_highlight')
 		UI.add_from_file(gladefile)
 		self.configWindow = UI.get_object("configWindow")
 		self.matchWholeWordCheckbutton = UI.get_object("matchWholeWordCheckbutton")

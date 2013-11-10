@@ -1,3 +1,28 @@
+gedit-gmate (0.11~uorppa0) quantal; urgency=low
+  * Add DokuWiki syntax.
+  * Add AsciiDoc syntax.
+  * Improve Stylus syntax.
+  * Add Tomorrow theme.
+  * Update Folding plugin from alanhamlett fork.
+  * Add Portugese keywords to Cucumer.
+
+ -- Andrey Sitnik <andrey@sitnik.ru>  Wed, 13 Feb 2013 20:29:06 +0400
+
+gedit-gmate (0.10~uorppa7) quantal; urgency=low
+  * Add line_tools plugin.
+  * Add code folding plugin.
+  * Fix ZenCoding and SnapOpen conflict.
+  * Highlight jade templates.
+  * Add test asserts to groovy syntax.
+  * Remove groovy++.
+
+ -- Andrey Sitnik <andrey@sitnik.ru>  Thu, 11 Oct 2012 23:53:07 +1100
+
+gedit-gmate (0.10~uorppa6) oneiric; urgency=low
+  * Add Zen Conding plugin to gedit 3.
+
+ -- Andrey Sitnik <andrey@sitnik.ru>  Mon, 05 Mar 2012 05:58:25 +0400
+
 gedit-gmate (0.10~uorppa5) oneiric; urgency=low
   * Move plugins to subdirs.
   * Fix background color for selection in Wombat style.
